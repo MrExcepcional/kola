@@ -1,2 +1,2 @@
 # kola
-Automatic crawler to explore, filter and apply with custom criteria not available in Linkedin
+Automatic crawler to explore, filter and apply jobs with custom criteria not available in Linkedin
