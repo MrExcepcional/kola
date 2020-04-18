@@ -14,9 +14,9 @@ class KolaTests(TestCase):
 
     def test_can_read_envs(self):
         self.k._load_envs()
-        print(self.k._us)
         self.assertIsNotNone(self.k._us)
         self.assertIsNotNone(self.k._kol)
+        self.assertIsNotNone(self.k._search)
 
     @skip
     def test_valid_user(self):
